@@ -43,10 +43,10 @@ function setupData(){
       );
 
       finalData = $.extend( clinic, time );
-      console.log(finalData);
+      // console.log(finalData);
 
       processTemplate();
 
     }
   );
-}
+};
