@@ -27,7 +27,7 @@ header {
   background-image: url("../img/new_ribbon.png");
   background-repeat: no-repeat;
   background-size: 112% auto;
-  background-position: -140px -264px;
+  background-position: -120px -264px;
   height: 300px;
   border-bottom: 1px solid #9B9B9B; }
   header:last-child {
@@ -197,8 +197,10 @@ header {
         background: #408ADF;
         border: none;
         border-radius: 5px;
-        padding: 7px 20px 7px 20px;
-        color: #fff; }
+        padding: 7px 20px 7px 20px; }
+        .card-container .card .column-3 button a {
+          text-decoration: none;
+          color: #fff; }
         .card-container .card .column-3 button:hover {
           background: #316AAC; }
 
@@ -223,7 +225,7 @@ footer {
 
 @media screen and (max-width: 1680px) {
   header {
-    background-position: -140px -220px; }
+    background-position: -90px -220px; }
   .card-container .card {
     float: left;
     display: block;
@@ -235,11 +237,11 @@ footer {
 
 @media screen and (max-width: 1610px) {
   header {
-    background-position: -140px -200px; } }
+    background-position: -90px -200px; } }
 
 @media screen and (max-width: 1510px) {
   header {
-    background-position: -140px -160px; } }
+    background-position: -80px -160px; } }
 
 @media screen and (max-width: 1480px) {
   .card-container .card {
