@@ -8,8 +8,8 @@
     <hr>
     <h4 class="facility-name"><span>{{facility.name}}</span> - <span>{{location.name}}</span></h4>
     <a class="address" href="http://maps.google.com/?q=1200 15594 Old Hickory Blvd, Nashville, Tennessee, 37211"><i class="fa fa-map-marker" aria-hidden="true"></i>15594 Old Hickory Blvd - Nashville, TN</a>
-    <a class="facility"><i class="fa fa-building-o" aria-hidden="true"></i>{{facility.name}}</a>
-    <a class="phone"><i class="fa fa-phone" aria-hidden="true"></i>(615) 555-5555</a>
+    <a class="facility" href=""><i class="fa fa-building-o" aria-hidden="true"></i>{{facility.name}}</a>
+    <a class="phone" href="tel:555-555-5555"><i class="fa fa-phone" aria-hidden="true"></i>(615) 555-5555</a>
     <div class="times">
       <hr>
       <ul>
@@ -24,10 +24,9 @@
   <div class="column-3">
     <select class="appointment-select" name="" label="Appointment Type">
       <option disabled="disabled" selected="selected">Appointment Type</option>
-      <option>option</option>
-      <option>option</option>
+      <option>{{service.name}}</option>
     </select>
 
-    <button type="button" name="button">View Full Schedule</button>
+    <button type="button" name="button"><a href="https://winter.inquickerstaging.com/schedule/calendar/9441">View Full Schedule</a></button>
   </div>
 </li>
