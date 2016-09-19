@@ -3,13 +3,16 @@ import $ from 'jquery';
 var jsonpData;
 var clinic;
 var template;
+var times;
+var time;
+var finalData;
 
 $.get( 'template/template.html', function(data){
   template = data;
 });
 
 var processTemplate = function() {
-  var rendered = Mustache.render( template, clinic );
+  var rendered = Mustache.render( template, finalData );
   $( '#template-output' ).append( rendered );
 };
 
@@ -32,8 +35,18 @@ function setupData(){
   jsonpData.forEach(
     function(arrayItem){
       clinic = arrayItem;
+
+      arrayItem.availableTimes.forEach(
+        function(arrayTimes){
+          time = arrayTimes;
+        }
+      );
+
+      finalData = $.extend( clinic, time );
+      console.log(finalData);
+
       processTemplate();
-      //sets up the template for each object.
+
     }
   );
 }

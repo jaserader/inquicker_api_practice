@@ -27,9 +27,9 @@ header {
   background-image: url("../img/new_ribbon.png");
   background-repeat: no-repeat;
   background-size: 112% auto;
-  background-position: -140px -240px;
+  background-position: -140px -264px;
   height: 300px;
-  border-bottom: 1px solid #4A4A4A; }
+  border-bottom: 1px solid #9B9B9B; }
   header:last-child {
     margin-right: 0; }
   header .logo-container {
@@ -57,7 +57,9 @@ header {
   margin-right: 2.35765%;
   width: 100%;
   padding-top: 25px;
-  background: #fff; }
+  padding-bottom: 25px;
+  background: #fff;
+  padding-left: 0; }
   .card-container:last-child {
     margin-right: 0; }
   .card-container .card {
@@ -66,18 +68,244 @@ header {
     margin-right: 2.35765%;
     width: 65.88078%;
     margin-left: 17.05961%;
-    height: 175px;
-    border: 3px solid #F6A2C6;
-    border-radius: 3px; }
+    height: 200px;
+    border: 2px solid #E5E5E5;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    margin-left: 0; }
     .card-container .card:last-child {
       margin-right: 0; }
     .card-container .card .column-1 {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 23.23176%; }
+      width: 21.09931%;
+      text-align: center;
+      padding-top: 15px; }
       .card-container .card .column-1:last-child {
         margin-right: 0; }
-      .card-container .card .column-1 img {
-        height: 125px;
-        width: auto; }
+      .card-container .card .column-1:nth-child(n) {
+        margin-right: 0; }
+      .card-container .card .column-1 .static-map {
+        height: 170px;
+        width: 170px;
+        border-radius: 50%;
+        border: 2px solid #E5E5E5; }
+    .card-container .card .column-2 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 50.95363%; }
+      .card-container .card .column-2:last-child {
+        margin-right: 0; }
+      .card-container .card .column-2 .service-name {
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #F6A2C6; }
+      .card-container .card .column-2 hr {
+        margin-top: 5px;
+        margin-bottom: 5px; }
+      .card-container .card .column-2 .facility-name {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 20px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        color: #4A4A4A; }
+      .card-container .card .column-2 .address,
+      .card-container .card .column-2 .facility,
+      .card-container .card .column-2 .phone {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        font-size: 14px;
+        margin-bottom: 7px;
+        color: #9B9B9B;
+        text-decoration: none; }
+        .card-container .card .column-2 .address:last-child,
+        .card-container .card .column-2 .facility:last-child,
+        .card-container .card .column-2 .phone:last-child {
+          margin-right: 0; }
+        .card-container .card .column-2 .address i,
+        .card-container .card .column-2 .facility i,
+        .card-container .card .column-2 .phone i {
+          margin-right: 5px; }
+        .card-container .card .column-2 .address:hover,
+        .card-container .card .column-2 .facility:hover,
+        .card-container .card .column-2 .phone:hover {
+          color: #F6A2C6; }
+      .card-container .card .column-2 .times {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        padding-left: 0; }
+        .card-container .card .column-2 .times:last-child {
+          margin-right: 0; }
+        .card-container .card .column-2 .times hr {
+          margin-top: 5px;
+          margin-bottom: 15px; }
+        .card-container .card .column-2 .times ul {
+          float: left;
+          display: block;
+          margin-right: 2.35765%;
+          width: 100%;
+          margin-top: 3px;
+          padding-left: 0;
+          text-align: center; }
+          .card-container .card .column-2 .times ul:last-child {
+            margin-right: 0; }
+        .card-container .card .column-2 .times a {
+          text-decoration: none;
+          color: #F6A2C6;
+          margin-top: 3px;
+          padding: 10px 20px 5px 20px; }
+          .card-container .card .column-2 .times a:hover {
+            color: #4A4A4A; }
+    .card-container .card .column-3 {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 23.23176%;
+      padding-top: 50px;
+      text-align: center; }
+      .card-container .card .column-3:last-child {
+        margin-right: 0; }
+      .card-container .card .column-3 label {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 100%;
+        text-align: center; }
+        .card-container .card .column-3 label:last-child {
+          margin-right: 0; }
+      .card-container .card .column-3 .appointment-select {
+        float: left;
+        display: block;
+        margin-right: 2.35765%;
+        width: 74.41059%;
+        margin-left: 12.79471%;
+        height: 30px;
+        font-size: 16px; }
+        .card-container .card .column-3 .appointment-select:last-child {
+          margin-right: 0; }
+      .card-container .card .column-3 button {
+        margin-top: 25px;
+        background: #408ADF;
+        border: none;
+        border-radius: 5px;
+        padding: 7px 20px 7px 20px;
+        color: #fff; }
+        .card-container .card .column-3 button:hover {
+          background: #316AAC; }
+
+footer {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  background: #4A4A4A;
+  height: 200px;
+  padding-left: 100px;
+  padding-top: 20px; }
+  footer:last-child {
+    margin-right: 0; }
+  footer .powered-by {
+    height: 50px;
+    width: auto; }
+
+@media screen and (max-width: 1880px) {
+  header {
+    background-position: -140px -240px; } }
+
+@media screen and (max-width: 1680px) {
+  header {
+    background-position: -140px -220px; }
+  .card-container .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
+    margin-left: 12.79471%; }
+    .card-container .card:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 1610px) {
+  header {
+    background-position: -140px -200px; } }
+
+@media screen and (max-width: 1510px) {
+  header {
+    background-position: -140px -160px; } }
+
+@media screen and (max-width: 1480px) {
+  .card-container .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 82.94039%;
+    margin-left: 8.5298%; }
+    .card-container .card:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 1320px) {
+  .card-container .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 87.20529%;
+    margin-left: 5.54437%; }
+    .card-container .card:last-child {
+      margin-right: 0; } }
+
+@media screen and (max-width: 1242px) {
+  header {
+    background-position: -70px -100px; }
+  .card-container .card {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 91.4702%;
+    margin-left: 2.55894%; }
+    .card-container .card:last-child {
+      margin-right: 0; }
+    .card-container .card .column-1 {
+      padding-top: 25px; }
+      .card-container .card .column-1 .static-map {
+        height: 150px;
+        width: 150px; }
+    .card-container .card .column-2 .service-name {
+      margin-top: 15px;
+      margin-bottom: 0px;
+      font-size: 16px; }
+    .card-container .card .column-2 hr {
+      margin-top: 10px;
+      margin-bottom: 7px; }
+    .card-container .card .column-2 .times hr {
+      margin-top: 0px;
+      margin-bottom: 10px; }
+    .card-container .card .column-2 .times a {
+      font-size: 14px; } }
+
+@media screen and (max-width: 1150px) {
+  header {
+    background-position: -70px -60px; } }
+
+@media screen and (max-width: 1102px) {
+  .card-container .card .column-2 {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 53.08608%; }
+    .card-container .card .column-2:last-child {
+      margin-right: 0; }
+    .card-container .card .column-2 .times a {
+      padding: 10px 10px 5px 10px; } }
+
+@media screen and (max-device-width: 768px) {
+  header {
+    background-position: -50px -50px;
+    height: 270px; } }
