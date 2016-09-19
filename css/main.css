@@ -28,7 +28,7 @@ header {
   background-repeat: no-repeat;
   background-size: 112% auto;
   background-position: -120px -264px;
-  height: 300px;
+  min-height: 300px;
   border-bottom: 1px solid #9B9B9B; }
   header:last-child {
     margin-right: 0; }
@@ -203,6 +203,8 @@ header {
           color: #fff; }
         .card-container .card .column-3 button:hover {
           background: #316AAC; }
+    .card-container .card .row {
+      display: none; }
 
 footer {
   float: left;
